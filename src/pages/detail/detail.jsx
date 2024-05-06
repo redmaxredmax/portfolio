@@ -21,7 +21,7 @@ export const Detail = () => {
                 </div>
                 <ul className='w-[600px] '>
                     <li className='border-b-2 pb-3 pl-5'>
-                        <h2 className='font-bold text-3xl text-blue-800'>Characteristics</h2>
+                        <h2 className='font-bold text-3xl text-blue-800'>Salom</h2>
                     </li>
                     {result?.feature?.map((item) =>
                         <li key={item.features} className='border-b-2 py-3 pl-5'>
