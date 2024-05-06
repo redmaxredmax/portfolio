@@ -39,7 +39,11 @@ export const projectsData = [
         git: "https://github.com/redmaxredmax/mobilux.git",
         server: "https://github.com/redmaxredmax/mobilux-server.git",
         feature: [
-            { features: "" }
+            { features: "This project is integrated with a backend which I created;" },
+            { features: "Products are sorted into categories by their 'CategoryId'" },
+            { features: "Registration also works. After you LogIn you can buy products." },
+            { features: "Log In is protected. The 'Token' is 24 hours, if this time expires,it will automatically send you to the Login Page."},
+            { features: "All requests created and processed through Postman are handled by the Backend." },
         ],
         istructions: [
             { instruction: "Download the Project Client and Server sections 'ZIP' file from the above GitHub links;" },
