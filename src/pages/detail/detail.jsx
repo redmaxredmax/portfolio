@@ -17,11 +17,11 @@ export const Detail = () => {
             <h2 className='text-center text-3xl font-semibold text-primary mb-10'>About <span className='text-blue-600'>"{result?.name}"</span> </h2>
             <div className='flex gap-[100px] pb-[70px]'>
                 <div className='mt-10'>
-                    <img data-aos-duration="1000" data-aos="flip-left" className=' shadow-custom object-contain w-[450px]' src={result?.photo} alt="img" />
+                    <img data-aos-duration="1000" data-aos="flip-left" className=' shadow-custom object-contain rounded-md w-[450px]' src={result?.photo2} alt="img" />
                 </div>
                 <ul className='w-[600px] '>
                     <li className='border-b-2 pb-3 pl-5'>
-                        <h2 className='font-bold text-3xl text-blue-800'>hayot</h2>
+                        <h2 className='font-bold text-3xl text-blue-800'>Characteristics</h2>
                     </li>
                     {result?.feature?.map((item) =>
                         <li key={item.features} className='border-b-2 py-3 pl-5'>
